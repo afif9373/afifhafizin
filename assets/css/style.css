@@ -1080,6 +1080,41 @@ section {
 	margin-top: 20px;
 }
 
+.ds-heading {
+	display: inline-block;
+	font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 16px;
+	border-bottom: 3px solid #e21616;
+	padding-bottom: 7px;
+	margin-bottom: 23px;
+}
+
+.ds-skills-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 11px;
+}
+
+.ds-skills-list li {
+	display: inline-block;
+	color: #373737;
+	font-size: 15px;
+	padding: 10px 20px;
+	background-color: #FFF;
+	border: 1px solid #D7D7D7;
+	border-radius: 27px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	font-weight: 500;
+}
+
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
